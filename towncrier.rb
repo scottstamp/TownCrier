@@ -55,6 +55,6 @@ bot = Cinch::Bot.new do
 	end
 end
 
-#bot.loggers.level = :fatal
-#bot.loggers.first.level = :fatal
+bot.loggers.level = :fatal
+bot.loggers.first.level = :fatal
 bot.start
