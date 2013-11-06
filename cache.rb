@@ -3,7 +3,7 @@ require_relative('lib/create_tables')
 require_relative('lib/models')
 
 class Cache
-	def self.cache_torrent(set = :set)
+	def cache_torrent(set = :set)
 		Torrent.create(
 			:artist 	=> set[:artist],
 			:album		=> set[:album],

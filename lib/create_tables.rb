@@ -12,4 +12,5 @@ DB.create_table? :torrents do
 	String :source
 	String :group_id
 	String :download_id
+	String :tags
 end
