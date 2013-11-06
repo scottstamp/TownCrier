@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.3.5)
+    cinch (2.0.10)
+    data_objects (0.10.13)
+      addressable (~> 2.1)
+    do_mysql (0.10.13)
+      data_objects (= 0.10.13)
+    sequel (4.4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cinch (~> 2.0.10)
+  data_objects (~> 0.10.13)
+  do_mysql (~> 0.10.13)
+  sequel (~> 4.4.0)

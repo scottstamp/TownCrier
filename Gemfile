@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'cinch', '~> 2.0.10'
+gem 'sequel', '~> 4.4.0'
+gem 'data_objects', '~> 0.10.13'
+gem 'do_mysql', '~> 0.10.13'
